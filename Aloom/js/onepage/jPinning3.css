@@ -1,0 +1,22 @@
+.pinning-nav {
+  -moz-transition: 0.3s all;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+  z-index: 10;
+  background: #fff;
+  width: 1330px;
+  padding: 2px 0px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+@media only screen and (max-width: 1169px){
+
+.pinning-nav {
+  left: 0;
+  right: 0;
+  top: 0;
+  width: auto;
+}
+
+}
