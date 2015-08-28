@@ -127,7 +127,7 @@ h2.light2 {
 }
 h2.blue {
 	color: #419ab1;
-	font-weight: 400;
+	font-weight: 800;
 }
 h3 { 
 	font-size: 21px; 
@@ -198,6 +198,9 @@ h5.gray {
 h5.blue {
 	color: #05aeac;
 	font-weight: 400;
+}
+h5.lessml {
+	margin-left: 30px;
 }
 h5.light {
 	font-weight: 300;
@@ -297,7 +300,15 @@ p {
 	font-weight: normal;
 	line-height: 25px;
 }
-
+.bigtfont2.i {
+	font-size: 16px;
+	font-weight: normal;
+	font-style: italic;
+	line-height: 25px;
+}
+.bigtfont2.padbuttom {
+	padding: 0px 0px 75px 0px;
+}
 
 ul.defaulf {
 	list-style: inherit;
