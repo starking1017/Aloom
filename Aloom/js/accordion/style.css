@@ -191,6 +191,9 @@
     min-width:270px;
     margin: 0 auto;
 }
+.st-accordion-four .alignL{
+	text-align: left;
+}
 .st-accordion-four ul li{
     height: 50px;
     border-bottom: 1px solid #e3e3e3;
