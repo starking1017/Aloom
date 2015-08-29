@@ -88,6 +88,7 @@
     <Content Include="css\bg-patterns\pattern-twelve.css" />
     <Content Include="css\bg-patterns\pattern-two.css" />
     <Content Include="css\colors\blue.css" />
+    <Content Include="css\colors\bluegreen.css" />
     <Content Include="css\colors\bridge.css" />
     <Content Include="css\colors\cyan.css" />
     <Content Include="css\colors\darkred.css" />
@@ -304,10 +305,10 @@
     <Content Include="index-modal.html" />
     <Content Include="index-onepagev1.html" />
     <Content Include="index-onepagev2.html" />
-    <Content Include="index.html" />
+    <Content Include="index3.html" />
     <Content Include="index10.html" />
     <Content Include="index2.html" />
-    <Content Include="index3.html" />
+    <Content Include="index.html" />
     <Content Include="index4.html" />
     <Content Include="index5.html" />
     <Content Include="index6.html" />
@@ -620,6 +621,8 @@
     <Content Include="obj\Debug\Aloom.csprojResolveAssemblyReference.cache" />
     <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <Content Include="README.md" />
+    <None Include="Properties\PublishProfiles\say4amoment - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\say4amoment - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

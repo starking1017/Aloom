@@ -249,7 +249,8 @@
 	display:block;
 	width:100%;
 	min-height: 100px;
-	margin-top:0px;
+	margin-top:15px;
+	margin-left:30px;
 	position: relative;
 	text-indent:-999em;
 	background:url(../images/logo.png) no-repeat left top;
@@ -1696,8 +1697,9 @@
 	float: left;
 	width: 46%;
 	margin-right: 55px;
-	background: #e3e3e3 url(https://unsplash.it/500/350/?random) no-repeat left top;
-	padding: 135px 60px 135px 60px;
+	background: #e3e3e3 url(https://unsplash.it/500/300/?random) no-repeat left top;
+	background-size: auto;
+	padding: 121px 60px 121px 60px;
 }
 
 .featured_section41 .slidesec {
