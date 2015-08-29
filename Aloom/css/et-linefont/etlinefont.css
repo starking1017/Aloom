@@ -1,0 +1,343 @@
+@font-face {
+	font-family: 'et-line';
+	src:url('fonts/et-line.eot');
+	src:url('fonts/et-line.eot?#iefix') format('embedded-opentype'),
+		url('fonts/et-line.woff') format('woff'),
+		url('fonts/et-line.ttf') format('truetype'),
+		url('fonts/et-line.svg#et-line') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'et-line';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	display:inline-block;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icons-mobile, .icons-laptop, .icons-desktop, .icons-tablet, .icons-phone, .icons-document, .icons-documents, .icons-search, .icons-clipboard, .icons-newspaper, .icons-notebook, .icons-book-open, .icons-browser, .icons-calendar, .icons-presentation, .icons-picture, .icons-pictures, .icons-video, .icons-camera, .icons-printer, .icons-toolbox, .icons-briefcase, .icons-wallet, .icons-gift, .icons-bargraph, .icons-grid, .icons-expand, .icons-focus, .icons-edit, .icons-adjustments, .icons-ribbon, .icons-hourglass, .icons-lock, .icons-megaphone, .icons-shield, .icons-trophy, .icons-flag, .icons-map, .icons-puzzle, .icons-basket, .icons-envelope, .icons-streetsign, .icons-telescope, .icons-gears, .icons-key, .icons-paperclip, .icons-attachment, .icons-pricetags, .icons-lightbulb, .icons-layers, .icons-pencil, .icons-tools, .icons-tools-2, .icons-scissors, .icons-paintbrush, .icons-magnifying-glass, .icons-circle-compass, .icons-linegraph, .icons-mic, .icons-strategy, .icons-beaker, .icons-caution, .icons-recycle, .icons-anchor, .icons-profile-male, .icons-profile-female, .icons-bike, .icons-wine, .icons-hotairballoon, .icons-globe, .icons-genius, .icons-map-pin, .icons-dial, .icons-chat, .icons-heart, .icons-cloud, .icons-upload, .icons-download, .icons-target, .icons-hazardous, .icons-piechart, .icons-speedometer, .icons-global, .icons-compass, .icons-lifesaver, .icons-clock, .icons-aperture, .icons-quote, .icons-scope, .icons-alarmclock, .icons-refresh, .icons-happy, .icons-sad, .icons-facebook, .icons-twitter, .icons-googleplus, .icons-rss, .icons-tumblr, .icons-linkedin, .icons-dribbble {
+	font-family: 'et-line';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	display:inline-block;
+}
+.icons-mobile:before {
+	content: "\e000";
+}
+.icons-laptop:before {
+	content: "\e001";
+}
+.icons-desktop:before {
+	content: "\e002";
+}
+.icons-tablet:before {
+	content: "\e003";
+}
+.icons-phone:before {
+	content: "\e004";
+}
+.icons-document:before {
+	content: "\e005";
+}
+.icons-documents:before {
+	content: "\e006";
+}
+.icons-search:before {
+	content: "\e007";
+}
+.icons-clipboard:before {
+	content: "\e008";
+}
+.icons-newspaper:before {
+	content: "\e009";
+}
+.icons-notebook:before {
+	content: "\e00a";
+}
+.icons-book-open:before {
+	content: "\e00b";
+}
+.icons-browser:before {
+	content: "\e00c";
+}
+.icons-calendar:before {
+	content: "\e00d";
+}
+.icons-presentation:before {
+	content: "\e00e";
+}
+.icons-picture:before {
+	content: "\e00f";
+}
+.icons-pictures:before {
+	content: "\e010";
+}
+.icons-video:before {
+	content: "\e011";
+}
+.icons-camera:before {
+	content: "\e012";
+}
+.icons-printer:before {
+	content: "\e013";
+}
+.icons-toolbox:before {
+	content: "\e014";
+}
+.icons-briefcase:before {
+	content: "\e015";
+}
+.icons-wallet:before {
+	content: "\e016";
+}
+.icons-gift:before {
+	content: "\e017";
+}
+.icons-bargraph:before {
+	content: "\e018";
+}
+.icons-grid:before {
+	content: "\e019";
+}
+.icons-expand:before {
+	content: "\e01a";
+}
+.icons-focus:before {
+	content: "\e01b";
+}
+.icons-edit:before {
+	content: "\e01c";
+}
+.icons-adjustments:before {
+	content: "\e01d";
+}
+.icons-ribbon:before {
+	content: "\e01e";
+}
+.icons-hourglass:before {
+	content: "\e01f";
+}
+.icons-lock:before {
+	content: "\e020";
+}
+.icons-megaphone:before {
+	content: "\e021";
+}
+.icons-shield:before {
+	content: "\e022";
+}
+.icons-trophy:before {
+	content: "\e023";
+}
+.icons-flag:before {
+	content: "\e024";
+}
+.icons-map:before {
+	content: "\e025";
+}
+.icons-puzzle:before {
+	content: "\e026";
+}
+.icons-basket:before {
+	content: "\e027";
+}
+.icons-envelope:before {
+	content: "\e028";
+}
+.icons-streetsign:before {
+	content: "\e029";
+}
+.icons-telescope:before {
+	content: "\e02a";
+}
+.icons-gears:before {
+	content: "\e02b";
+}
+.icons-key:before {
+	content: "\e02c";
+}
+.icons-paperclip:before {
+	content: "\e02d";
+}
+.icons-attachment:before {
+	content: "\e02e";
+}
+.icons-pricetags:before {
+	content: "\e02f";
+}
+.icons-lightbulb:before {
+	content: "\e030";
+}
+.icons-layers:before {
+	content: "\e031";
+}
+.icons-pencil:before {
+	content: "\e032";
+}
+.icons-tools:before {
+	content: "\e033";
+}
+.icons-tools-2:before {
+	content: "\e034";
+}
+.icons-scissors:before {
+	content: "\e035";
+}
+.icons-paintbrush:before {
+	content: "\e036";
+}
+.icons-magnifying-glass:before {
+	content: "\e037";
+}
+.icons-circle-compass:before {
+	content: "\e038";
+}
+.icons-linegraph:before {
+	content: "\e039";
+}
+.icons-mic:before {
+	content: "\e03a";
+}
+.icons-strategy:before {
+	content: "\e03b";
+}
+.icons-beaker:before {
+	content: "\e03c";
+}
+.icons-caution:before {
+	content: "\e03d";
+}
+.icons-recycle:before {
+	content: "\e03e";
+}
+.icons-anchor:before {
+	content: "\e03f";
+}
+.icons-profile-male:before {
+	content: "\e040";
+}
+.icons-profile-female:before {
+	content: "\e041";
+}
+.icons-bike:before {
+	content: "\e042";
+}
+.icons-wine:before {
+	content: "\e043";
+}
+.icons-hotairballoon:before {
+	content: "\e044";
+}
+.icons-globe:before {
+	content: "\e045";
+}
+.icons-genius:before {
+	content: "\e046";
+}
+.icons-map-pin:before {
+	content: "\e047";
+}
+.icons-dial:before {
+	content: "\e048";
+}
+.icons-chat:before {
+	content: "\e049";
+}
+.icons-heart:before {
+	content: "\e04a";
+}
+.icons-cloud:before {
+	content: "\e04b";
+}
+.icons-upload:before {
+	content: "\e04c";
+}
+.icons-download:before {
+	content: "\e04d";
+}
+.icons-target:before {
+	content: "\e04e";
+}
+.icons-hazardous:before {
+	content: "\e04f";
+}
+.icons-piechart:before {
+	content: "\e050";
+}
+.icons-speedometer:before {
+	content: "\e051";
+}
+.icons-global:before {
+	content: "\e052";
+}
+.icons-compass:before {
+	content: "\e053";
+}
+.icons-lifesaver:before {
+	content: "\e054";
+}
+.icons-clock:before {
+	content: "\e055";
+}
+.icons-aperture:before {
+	content: "\e056";
+}
+.icons-quote:before {
+	content: "\e057";
+}
+.icons-scope:before {
+	content: "\e058";
+}
+.icons-alarmclock:before {
+	content: "\e059";
+}
+.icons-refresh:before {
+	content: "\e05a";
+}
+.icons-happy:before {
+	content: "\e05b";
+}
+.icons-sad:before {
+	content: "\e05c";
+}
+.icons-facebook:before {
+	content: "\e05d";
+}
+.icons-twitter:before {
+	content: "\e05e";
+}
+.icons-googleplus:before {
+	content: "\e05f";
+}
+.icons-rss:before {
+	content: "\e060";
+}
+.icons-tumblr:before {
+	content: "\e061";
+}
+.icons-linkedin:before {
+	content: "\e062";
+}
+.icons-dribbble:before {
+	content: "\e063";
+}

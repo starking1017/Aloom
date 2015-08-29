@@ -1,0 +1,124 @@
+.ms-tablet-template .ms-tablet-cont .ms-view{
+	background-color: #17171a;
+}
+.ms-tablet-template .ms-tablet-cont{
+   	max-width: 500px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.ms-tablet-template.ms-tablet-land .ms-tablet-cont {
+    max-width: 842px;
+}
+
+.ms-tablet-template.ms-tablet-land .ms-lt-slider-cont {
+	padding: 52px 0px 0px 176px;
+	max-width: 670px;
+}
+
+.ms-tablet-template .ms-lt-slider-cont {
+    position: relative;
+    padding: 11.1% 11% 22%;
+    max-width: 400px;
+}
+.ms-tablet-template .ms-tablet-bg {
+    max-width: 100%;
+    position: absolute;
+}
+
+.ms-tablet-template .ms-nav-prev,
+.ms-tablet-template .ms-nav-next {
+    background: url(skin.png) no-repeat -11px -9px;
+    width: 35px;
+    height: 40px;
+    left: -120px;
+    margin-top: -17px;
+    position: absolute;
+    top:50%;
+    cursor: pointer;
+}
+.ms-tablet-template .ms-nav-next {
+	background-position: -59px -9px;
+	right: -120px;
+	left:auto;
+}
+
+.ms-tablet-template .ms-bullets.ms-dir-h {
+	position: absolute;
+	bottom: -21.5%;
+	right: 50%;
+	width: 100px;
+}
+
+.ms-tablet-template .ms-bullets.ms-dir-h .ms-bullets-count {
+	position: relative;
+	right: -50%;
+}
+
+.ms-tablet-template .ms-bullet {
+	width: 10px;
+	height: 10px;
+	background: url(skin.png) no-repeat -112px -25px;
+	margin: 4px;
+}
+
+.ms-tablet-template .ms-bullet-selected {
+    background-position: -143px -25px;
+}
+
+
+
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1169px){
+
+.ms-tablet-template.ms-tablet-land .ms-lt-slider-cont {
+	padding: 34px 0px 0px 182px;
+	max-width: 500px;
+	margin-left: 80px;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 999px){
+
+.ms-tablet-template.ms-tablet-land .ms-lt-slider-cont {
+	padding: 15px 0px 0px 182px;
+	max-width: 418px;
+	margin-left: 85px;
+}
+
+}
+
+
+@media only screen and (min-width: 640px) and (max-width: 767px){
+	
+.ms-tablet-template.ms-tablet-land .ms-lt-slider-cont {
+	padding: 15px 0px 0px 182px;
+	max-width: 379px;
+	margin-left: 40px;
+}
+	
+}
+
+@media only screen and (min-width: 480px) and (max-width: 639px){
+	
+.ms-tablet-template.ms-tablet-land .ms-lt-slider-cont {
+	padding: 53px 0px 0px 165px;
+	max-width: 315px;
+	margin-left: 0px;
+}
+
+}
+
+
+@media only screen and (max-width: 479px){
+	
+.ms-tablet-template.ms-tablet-land .ms-lt-slider-cont {
+	padding: 53px 0px 0px 110px;
+	max-width: 210px;
+	margin-left: 0px;
+}
+
+}
+
