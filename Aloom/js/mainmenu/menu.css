@@ -635,7 +635,7 @@ body{overflow-x:hidden}::-webkit-scrollbar{width:12px}::-webkit-scrollbar-track{
 
 .navbar-default .navbar-nav>li>a {
 color: #181818;
-font-size:14px;
+font-size:18px;
 font-weight: 500;
 font-family: 'Raleway', sans-serif;
 }
