@@ -61,7 +61,7 @@
 	float: left;
 	width: 100%;
 	background: #fff;
-	padding: 120px 0px 120px 0px;
+	padding: 170px 0px 120px 0px;
 }
 .content_fullwidth.lessmtp {
 	padding-top: 0px;
@@ -248,13 +248,13 @@
 	float:left;
 	display:block;
 	width:100%;
-	min-height: 100px;
+    height: auto;
+	min-height: 150px;
 	margin-top:15px;
-	margin-left:30px;
+	margin-left:10px;
 	position: relative;
 	text-indent:-999em;
 	background:url(../images/logo.png) no-repeat left top;
-	background-size: 100%;
 }
 
 #logo1 {
@@ -393,7 +393,7 @@
 	transition: all 0.3s ease;
 }
 .top_nav .right {
-	float: left;
+	float: right;
 	width: 70%;
 	text-align: right;
 }
@@ -1711,7 +1711,8 @@
 }
 .featured_section41 .slidesec li {
 	padding: 7px 0px;
-	font-size: 18px;
+	font-size: 14px;
+    list-style-type: none;
 }
 
 .featured_section41 .imgbox {
@@ -1807,15 +1808,14 @@
 /* featured section 47 */
 .featured_section47 {
 	float: left;
-	width: 60%;
+	width: 80%;
 	background: #fff;
-	padding: 20px 0px 40px 0px;
+	padding: 20px 0px 20px 0px;
 	text-align: left;
 }
 .featured_section47 li a strong{
 	font-style: italic;
 	font-weight: 600;
-	color: #000000;
 }
 
 /* featured section 48 */

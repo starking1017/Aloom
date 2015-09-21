@@ -4,6 +4,9 @@
 
 #logo {
 	background: url(../../images/colors/green/logo.png) no-repeat left top;
+    width: 100%;
+    height: 100px;
+    background-size: 100% auto;
 }
 
 .header ul.nav>li>a.active {

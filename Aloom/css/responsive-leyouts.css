@@ -1,16 +1,50 @@
 /* Responsive CSS Styles Table of Contents */
-
+@media only screen and (min-width: 1170px) {
+.site_wrapper {
+	width: 90%;
+}
+.top_nav .container_full {
+    margin: 0 auto 0 auto
+}
+.container_full {
+    width: 90%;
+}
+.logo {
+    width:45%;
+    max-width: 350px;
+}
+.menu_main {
+    padding-top: 45px;
+	position: absolute;
+	width: 95%;
+    height:auto;
+}
+    
+}
+    
 @media only screen and (min-width: 1000px) and (max-width: 1169px){
 .site_wrapper {
 	width: 1000px;
 }
+.top_nav .container_full {
+    margin: 0 auto 0 auto
+}
 .container_full {
-	width: 1000px;
+	width: 980px;
 }
 .container {
 	width: 900px;
 }
-
+.logo {
+    width:45%;
+    max-width: 350px;
+}
+    
+.menu_main {
+    padding-top: 55px;
+	position: relative;
+	width: 64%;
+}
 .top_right ul.tinfo {
 	width: 75%;
 }
@@ -122,6 +156,9 @@
 .site_wrapper {
 	width: 747px;
 }
+.top_nav .container_full {
+    margin: 0 auto 0 auto
+}
 .container_full {
 	width: 747px;
 }
@@ -130,8 +167,10 @@
 }
 
 .logo {
-	width: 40%;
+	width: 55%;
+    max-width: 310px;
 }
+
 .menu_main {
 	position: absolute;
 	width: 100%;
@@ -360,6 +399,9 @@ h1.big {
 .site_wrapper {
 	width: 590px;
 }
+.top_nav .container_full {
+    margin: 0 auto 0 auto
+}
 .container_full {
 	width: 590px;
 }
@@ -391,7 +433,8 @@ h1.big {
 
 
 .logo {
-	width: 40%;
+	width: 65%;
+    max-width: 310px;
 }
 .menu_main {
 	position: absolute;
@@ -749,13 +792,21 @@ h1.big {
 .site_wrapper {
 	width: 440px;
 }
+.top_nav .container_full {
+    margin: 0 auto 0 auto
+}
 .container_full {
 	width: 440px;
 }
 .container {
 	width: 360px;
 }
-
+.content_fullwidth {
+	float: left;
+	width: 100%;
+	background: #fff;
+	padding: 150px 0px 120px 0px;
+}    
 .content_left {
 	float: left;
 	width: 100%;
@@ -777,10 +828,11 @@ h1.big {
 	padding: 0px 0px 75px 0px;
 }
 
-
 .logo {
 	width: 100%;
+    max-width: 290px;
 }
+    
 .menu_main {
 	position: absolute;
 	width: 100%;
@@ -1182,13 +1234,23 @@ h1.big {
 .site_wrapper {
 	width: 300px;
 }
+.top_nav .container_full {
+    margin: 0 auto 0 auto
+}
 .container_full {
 	width: 300px;
 }
 .container {
 	width: 250px;
 }
-
+    
+.content_fullwidth {
+	float: left;
+	width: 100%;
+	background: #fff;
+	padding: 140px 0px 120px 0px;
+}
+    
 .content_left {
 	float: left;
 	width: 100%;
@@ -1211,9 +1273,11 @@ h1.big {
 }
 
 
-.logo {
+.logo{
 	width: 100%;
+    max-width: 245px;
 }
+    
 .menu_main {
 	position: absolute;
 	width: 100%;
