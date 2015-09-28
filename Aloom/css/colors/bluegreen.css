@@ -19,6 +19,7 @@
 
 .header ul.nav>li>a:hover {
 	color:#05adab;
+    background:  rgba(255, 255, 255, 0.1) ;
 }
 .header ul.nav .dropdown li a em {
 	background: #05adab;
@@ -210,10 +211,10 @@
     color: #05adab;
 }
 .site_wrapper .st-accordion-four ul li.st-open > a span{
-	background: transparent url(../../images/colors/green/minus-color.png) no-repeat center center;
+	background: transparent url(../../images/colors/cyan/minus-color.png) no-repeat center center;
 }
 .site_wrapper .st-accordion-four ul li > a span{
-	background: transparent url(../../images/colors/green/plus-color.png) no-repeat center center;
+	background: transparent url(../../images/colors/cyan/plus-color.png) no-repeat center center;
 }
 .site_wrapper .st-accordion-four ul li > a:hover{
     color: #05adab;

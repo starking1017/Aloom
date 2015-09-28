@@ -195,7 +195,7 @@
 	text-align: left;
 }
 .st-accordion-four ul li{
-    border-bottom: 1px solid #e3e3e3;
+    border-bottom: 0px solid #e3e3e3;
     overflow: hidden;
 }
 .st-accordion-four ul li:first-child{
@@ -206,7 +206,7 @@
 	color: #f62459;
     display: block;
 	position: relative;
-    line-height: 30px;
+    line-height: 35px;
 	padding-left: 30px;
 	outline:none;
     -webkit-transition:  color 0.2s ease-in-out;
@@ -246,12 +246,13 @@
 	opacity:1;
 	margin-top: -7px;
 }
-.st-accordion-four.st-content{
+.st-accordion-four .st-content{
     padding: 0px 0px 0px 0px;
 }
 .st-accordion-four .st-content p{
 	color: #727272;
     font-size:  14px;
+    padding: 0px 0px 10px 0px;
 }
 
 @media screen and (max-width: 768px){
