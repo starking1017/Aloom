@@ -1,5 +1,89 @@
 /* Responsive CSS Styles Table of Contents */
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 2550px) and (max-width: 3999px) {
+	.site_wrapper {
+		width: 90%;
+	}
+
+	.container_full {
+		width: 99%;
+		float: left;
+	}
+
+	.menu_main {
+		padding-top: 45px;
+		position: relative;
+		width: 73%;
+		height: auto;
+	}
+	.logo {
+		width:350px;
+		max-width: 350px;
+	}
+	.top_nav .left {
+		padding-left: 5%;
+	}
+	.top_nav .right {
+		padding-right: 4%;
+	}
+}
+
+@media only screen and (min-width: 1920px) and (max-width: 2549px) {
+	.site_wrapper {
+		width: 90%;
+	}
+
+	.container_full {
+		width: 99%;
+	}
+
+	.menu_main {
+		padding-top: 45px;
+		position: relative;
+		width: 73%;
+		height: auto;
+	}
+	.logo {
+		width:350px;
+		max-width: 350px;
+	}
+	.top_nav .left {
+		padding-left: 5%;
+	}
+	.top_nav .right {
+		padding-right: 4%;
+	}
+}
+
+
+@media only screen and (min-width: 1440px) and (max-width: 1919px) {
+	.site_wrapper {
+		width: 90%;
+	}
+
+	.container_full {
+		width: 99%;
+	}
+
+	.menu_main {
+		padding-top: 45px;
+		position: relative;
+		width: 71%;
+		height: auto;
+	}
+	.logo {
+		width:350px;
+		max-width: 350px;
+	}
+	.top_nav .left {
+		padding-left: 5%;
+	}
+	.top_nav .right {
+		padding-right: 4%;
+	}
+}
+
+
+@media only screen and (min-width: 1170px) and (max-width: 1439px) {
 .site_wrapper {
 	width: 90%;
 }
@@ -9,7 +93,7 @@
 .menu_main {
     padding-top: 45px;
 	position: relative;
-	width: 65%;
+	width: 64%;
     height:auto;
 }
     
@@ -46,7 +130,7 @@
 .menu_main {
     padding-top: 55px;
 	position: relative;
-	width: 64%;
+	width: 63%;
 }
 .top_right ul.tinfo {
 	width: 75%;

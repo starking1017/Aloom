@@ -488,7 +488,16 @@ body{overflow-x:hidden}::-webkit-scrollbar{width:12px}::-webkit-scrollbar-track{
 	margin-right: 0%;
 }
 
-@media only screen and (min-width: 1170px) and (max-width: 1920px){
+
+@media only screen and (min-width: 1920px) and (max-width: 4500px){
+
+    .header{width:95%;top: 50px;padding-top: 0px;}
+    .compact .header{width:95%;}
+    .compact .header #logo{ background-size: 45%; background-position: 18px 14px;}
+
+}
+
+@media only screen and (min-width: 1170px)and (max-width: 1919px){
 
 .header{width:95%;top: 50px;padding-top: 0px;}
 .compact .header{width:95%;}
