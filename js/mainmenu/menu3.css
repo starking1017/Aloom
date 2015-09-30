@@ -499,7 +499,7 @@ body{overflow-x:hidden}::-webkit-scrollbar{width:12px}::-webkit-scrollbar-track{
 
 @media only screen and (min-width: 1170px)and (max-width: 1919px){
 
-.header{width:90%;top: 50px;padding-top: 0px;}
+.header{width:92%;top: 50px;padding-top: 0px;}
 .compact .header{width:90%;}
 .compact .header #logo{ background-size: 45%; background-position: 18px 14px;}
 
@@ -507,7 +507,7 @@ body{overflow-x:hidden}::-webkit-scrollbar{width:12px}::-webkit-scrollbar-track{
 
 @media only screen and (min-width: 1000px) and (max-width: 1169px){
 
-.header{width:80%;top: 50px;padding-top: 0px;}
+.header{width:94%;top: 50px;padding-top: 0px;}
 .compact .header{width:1000px;}
 .compact .header #logo{ background-size: 45%; background-position: 18px 14px;}
 
