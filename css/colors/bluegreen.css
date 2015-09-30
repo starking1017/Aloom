@@ -14,16 +14,18 @@
 }
 
 .header ul.nav>li>a:hover.active {
-	color:#05adab;
+	color:rgba(255, 255, 255, 0.95);
 }
 
 .header ul.nav>li>a:hover {
-	color:#05adab;
-    background:  rgba(255, 255, 255, 0.1) ;
+	color:rgba(255, 255, 255, 0.95);
+    background:  rgba(5, 173, 171, 0.5) ;
 }
+
 .header ul.nav .dropdown li a em {
 	background: #05adab;
 }
+
 .header ul.nav .dropdown li a em.soon {
 	background: #ccc;
 }
