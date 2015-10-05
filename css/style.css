@@ -690,7 +690,7 @@
 .featured_section5 .box {
 	float: left;
 	width: 33.3333333333%;
-	padding: 90px 70px 100px 70px;
+	padding: 30px 70px 30px 70px;
 	background: #ebebeb;
 }
 .featured_section5 .box.active {
@@ -1822,6 +1822,7 @@
 	background: #fff;
 	padding: 20px 0px 20px 0px;
 	text-align: left;
+    padding-left: 10px;
 }
 
 /* featured section 48 */
@@ -1911,7 +1912,7 @@
 
 .footer.sty2 {
 	color: #ccc;
-	padding: 70px 0px 65px 0px;
+	padding: 40px 0px 45px 0px;
 }
 .footer.sty2 a {
 	color: #999;
