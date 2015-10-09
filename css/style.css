@@ -1836,7 +1836,8 @@
 .featured_section48 p {
 	font-size: 18px;
 	line-height: 35px;
-	color: #a2a2a2
+	color: #a2a2a2;
+    font-style: italic;
 }
 
 .featured_section48 .font-effect {
@@ -1865,6 +1866,11 @@
 	background: #fff;
 	padding: 0px 0px 0px 0px;
 	text-align: center;
+}
+
+.featured_section49 h2{
+	font-style: italic;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
