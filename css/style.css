@@ -1818,16 +1818,14 @@
 /* featured section 47 */
 .featured_section47 {
 	float: left;
-	width: 80%;
+	width: 100%;
 	background: #fff;
 	padding: 20px 0px 20px 0px;
 	text-align: left;
     padding-left: 10px;
 }
 
-.featured_section47 ul li{
-	float: left;
-	width: 80%;
+.featured_section47 ui li{
 	padding: 10px 0px 10px 0px;
     padding-left: 10px;
     font-size: 18px;
