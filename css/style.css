@@ -1825,6 +1825,16 @@
     padding-left: 10px;
 }
 
+.featured_section47 ul li{
+	float: left;
+	width: 80%;
+	padding: 10px 0px 10px 0px;
+    padding-left: 10px;
+    font-size: 18px;
+    list-style-type: disc;
+    list-style:inside;
+}
+
 /* featured section 48 */
 .featured_section48 {
 	float: left;
