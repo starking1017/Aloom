@@ -1838,7 +1838,7 @@
 	float: left;
 	width: 100%;
 	background: #fff;
-	padding: 40px 0px 0px 0px;
+	padding: 20px;
 	text-align: left;
 }
 .featured_section48 p {
@@ -1881,6 +1881,29 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+/* featured section 50 */
+.featured_section50 {
+	float: left;
+	width: 100%;
+	background: #fff;
+	color: #727272;
+	text-align: center;
+	padding: 0px 0px 20px 0px;
+}
+.featured_section50 ul {
+	float: left;
+	width: 100%;
+}
+.featured_section50 li {
+	text-align: left;
+	font-size: 16px;
+	font-weight: 300;
+	padding: 9px 0px 8px 25px;
+}
+.featured_section50 .one_third_big h4 {
+	text-align: left;
+	margin-left: 25px;
+}
 
 
 /* Footer Styles */
