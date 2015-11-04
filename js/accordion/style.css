@@ -337,6 +337,7 @@
 	color: #727272;
     font-size:  14px;
 	padding-left: 50px;
+    padding-right: 50px;
 }
 
 @media screen and (max-width: 768px){
